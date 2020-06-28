@@ -9,7 +9,7 @@ import { VirtualTimeScheduler } from 'rxjs';
 })
 export class LoginPage implements OnInit {
 
-  user: User = {} as User;ß
+  user: User = {} as User;
 
   constructor(private navCtrl: NavController, private alertCtrl: AlertController) { }
 
